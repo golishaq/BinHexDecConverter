@@ -1,0 +1,14 @@
+D:\[FILES]\OneDrive\VisualStudio\projects\BinHexDecConv\BinHexDecConv\bin\Debug\BinHexDecConv.exe.config
+D:\[FILES]\OneDrive\VisualStudio\projects\BinHexDecConv\BinHexDecConv\bin\Debug\BinHexDecConv.exe
+D:\[FILES]\OneDrive\VisualStudio\projects\BinHexDecConv\BinHexDecConv\bin\Debug\BinHexDecConv.pdb
+D:\[FILES]\OneDrive\VisualStudio\projects\BinHexDecConv\BinHexDecConv\obj\Debug\BinHexDecConv.csprojResolveAssemblyReference.cache
+D:\[FILES]\OneDrive\VisualStudio\projects\BinHexDecConv\BinHexDecConv\obj\Debug\MainWindow.g.cs
+D:\[FILES]\OneDrive\VisualStudio\projects\BinHexDecConv\BinHexDecConv\obj\Debug\App.g.cs
+D:\[FILES]\OneDrive\VisualStudio\projects\BinHexDecConv\BinHexDecConv\obj\Debug\BinHexDecConv_MarkupCompile.cache
+D:\[FILES]\OneDrive\VisualStudio\projects\BinHexDecConv\BinHexDecConv\obj\Debug\BinHexDecConv_MarkupCompile.lref
+D:\[FILES]\OneDrive\VisualStudio\projects\BinHexDecConv\BinHexDecConv\obj\Debug\MainWindow.baml
+D:\[FILES]\OneDrive\VisualStudio\projects\BinHexDecConv\BinHexDecConv\obj\Debug\BinHexDecConv.g.resources
+D:\[FILES]\OneDrive\VisualStudio\projects\BinHexDecConv\BinHexDecConv\obj\Debug\BinHexDecConv.Properties.Resources.resources
+D:\[FILES]\OneDrive\VisualStudio\projects\BinHexDecConv\BinHexDecConv\obj\Debug\BinHexDecConv.csproj.GenerateResource.Cache
+D:\[FILES]\OneDrive\VisualStudio\projects\BinHexDecConv\BinHexDecConv\obj\Debug\BinHexDecConv.exe
+D:\[FILES]\OneDrive\VisualStudio\projects\BinHexDecConv\BinHexDecConv\obj\Debug\BinHexDecConv.pdb

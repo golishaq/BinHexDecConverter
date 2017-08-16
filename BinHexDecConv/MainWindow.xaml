@@ -1,0 +1,63 @@
+﻿<Window x:Class="BinHexDecConv.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BinHexDecConv"
+        mc:Ignorable="d"
+        Title="RebootTrainer" Height="300" Width="408" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid x:Name="Main">
+
+        <Grid x:Name="Addr1" Margin="306,12,0,0" HorizontalAlignment="Left" Width="80" Height="77" VerticalAlignment="Top">
+            <Label x:Name="labelVal" FontWeight="Bold" Height="30" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top">ADDR1</Label>
+            <CheckBox Checked="ChBAddr1_1" Unchecked="ChBAddr1_1U" Height="16" Margin="63,35,0,0" VerticalAlignment="Top" Width="16" HorizontalAlignment="Left" Background="{x:Null}" BorderBrush="#FF0051FF"/>
+            <CheckBox Checked="ChBAddr1_2" Unchecked="ChBAddr1_2U" Height="16" Margin="42,35,0,0" VerticalAlignment="Top" OpacityMask="Black" HorizontalAlignment="Left" Width="16" BorderBrush="#FF0051FF" Background="{x:Null}"/>
+            <CheckBox Checked="ChBAddr1_3" Unchecked="ChBAddr1_3U" Width="16" Height="16" Margin="21,35,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Background="{x:Null}" BorderBrush="#FF0051FF"/>
+            <CheckBox Checked="ChBAddr1_4" Unchecked="ChBAddr1_4U" Width="16" Height="16" Margin="0,35,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Background="{x:Null}" BorderBrush="#FF0051FF"/>
+        </Grid>
+
+        <Grid x:Name="Addr2" Margin="242,7,0,0" HorizontalAlignment="Left" Width="59" Height="77" VerticalAlignment="Top">
+            <Label x:Name="labelVal2" FontWeight="Bold" Height="30" Margin="0,5,0,0" Width="50" VerticalAlignment="Top" HorizontalAlignment="Left">ADDR2</Label>
+            <CheckBox Checked="ChBAddr2_1" Unchecked="ChBAddr2_1U" Height="16" Margin="42,40,0,0" VerticalAlignment="Top" Width="16" HorizontalAlignment="Left"/>
+            <CheckBox Checked="ChBAddr2_2" Unchecked="ChBAddr2_2U" Width="16" Height="16" Margin="21,40,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <CheckBox Checked="ChBAddr2_3" Unchecked="ChBAddr2_3U" Width="16" Height="16" Margin="0,40,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Content=""/>
+        </Grid>
+
+        <GroupBox x:Name="Port" Height="77" VerticalAlignment="Top" Margin="10,10,0,0" HorizontalAlignment="Left" Width="227" BorderBrush="Black">
+            <Grid Margin="0,0,0,0">
+                <Label x:Name="labelPort" Content="PORT" Width="52" Margin="10,0,0,40" HorizontalAlignment="Left" Height="27" VerticalAlignment="Bottom" FontWeight="Bold" FontSize="16" RenderTransformOrigin="2,0.407"/>
+                <RadioButton x:Name="rBtn1" Checked="rBtn" Content="1" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Height="17" Width="17" Margin="0,0,0,10"/>
+                <RadioButton x:Name="rBtn2" Checked="rBtn" Content="2" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Height="17" Width="17" Margin="17,0,0,10"/>
+                <RadioButton x:Name="rBtn3" Checked="rBtn" Content="3" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Height="17" Width="17" Margin="34,0,0,10"/>
+                <RadioButton x:Name="rBtn4" Checked="rBtn" Content="4" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Height="17" Width="17" Margin="51,0,0,10"/>
+                <RadioButton x:Name="rBtn5" Checked="rBtn" Content="5" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Height="17" Width="17" Margin="68,0,0,10"/>
+                <RadioButton x:Name="rBtn6" Checked="rBtn" Content="6" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Height="17" Width="17" Margin="85,0,0,10"/>
+                <RadioButton x:Name="rBtn7" Checked="rBtn" Content="7" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Height="17" Width="17" Margin="102,0,0,10"/>
+                <RadioButton x:Name="rBtn8" Checked="rBtn" Content="8" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Height="17" Width="17" Margin="119,0,0,10"/>
+                <RadioButton x:Name="rBtn9" Checked="rBtn" Content="9" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Height="17" Width="17" Margin="136,0,0,10"/>
+                <RadioButton x:Name="rBtn10" Checked="rBtn" Content="A" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Height="17" Width="17" Margin="153,0,0,10"/>
+                <RadioButton x:Name="rBtn11" Checked="rBtn" Content="B" HorizontalAlignment="Left" Width="17" Margin="170,0,0,10" Height="17" VerticalAlignment="Bottom"/>
+                <RadioButton x:Name="rBtn12" Checked="rBtn" Content="C" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Height="17" Width="17" Margin="187,0,0,10"/>
+                <Label x:Name="label" Content="1   2   3   4   5    6   7   8   9  10  11 12" HorizontalAlignment="Left" Margin="0,21,0,0" VerticalAlignment="Top" Width="215" Height="23"/>
+            </Grid>
+        </GroupBox>
+        <Label x:Name="fullAddr" Content="FULL-ADDRESS" HorizontalAlignment="Left" Margin="10,87,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20"/>
+        <Label x:Name="decAddr" Content="SYSTEM-ADDRESS" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="168,96,0,0" FontWeight="Bold" FontSize="24" Width="218"/>
+        <Label x:Name="variousInfo" Content="1    2     3    4     5    6    7" Margin="242,60,0,0" Height="24" VerticalAlignment="Top" HorizontalAlignment="Left" Width="144"/>
+        <RichTextBox x:Name="richTextBox" HorizontalAlignment="Left" Height="112" Margin="10,147,0,0" VerticalAlignment="Top" Width="380" SelectionOpacity="1" IsEnabled="False">
+            <RichTextBox.Resources>
+                <Style TargetType="{x:Type Paragraph}">
+                    <Setter Property="Margin" Value="0" />
+                </Style>
+            </RichTextBox.Resources>
+            <FlowDocument>
+                <Paragraph>Legend:</Paragraph>
+                <Paragraph>ADDR1 / ADDR2 are visualization of your reboot controller address</Paragraph>
+                <Paragraph>Checked boxes shows jumpers in up position</Paragraph>
+                <Paragraph>Port section: I do not think I have to explain</Paragraph>
+                <Paragraph>FULL-ADDRESS represents full controller-port address in hex value (with segmentation)</Paragraph>
+                <Paragraph>SYSTEM-ADDRESS shows decimal value of FULL-ADDRESS</Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+    </Grid>
+</Window>
